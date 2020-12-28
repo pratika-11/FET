@@ -1,0 +1,58 @@
+body{
+ 
+  background-image:
+  radial-gradient(
+    circle at top right,
+    rgb(29, 253, 235),
+    #5987a5
+  );
+}
+h1 {
+  text-shadow: 0 0 5px #aa69cf;
+}
+.form-table {
+  width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+
+background-color: white;
+box-shadow: 15px 10px 5px grey;
+  
+}
+label {
+  font-weight: bold;
+  margin-left: 20px;
+  padding-left: 15px;
+}
+label,input{
+  margin-top: 15px;
+  padding-top: 10px;
+}
+#form_submission_ajax {
+ /* background-color: #eee;
+ */  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.error {
+  color: #ff0000;
+}
+
+#togglePassword {
+  display: inline;
+  margin-left: -25px;
+}
+.scrollbar{
+	max-height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#submit,#reset{
+  background-color:  rgb(15, 125, 139);
+  color: aliceblue;
+  font-weight: bold;
+  width:150px;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+}
