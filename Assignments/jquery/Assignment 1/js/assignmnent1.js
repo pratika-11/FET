@@ -4,9 +4,9 @@ $(document).ready(function () {
     method:"GET",
     url: "https://jsonplaceholder.typicode.com/photos",
     success: function (response) { 
-      for(let i=0; i<response.length;i++){
+      for(let i=0; i<50;i++){
        // console.log(response[i].title)
-       // console.log(response[i].thumbnailUrl)
+       console.log(response[i].thumbnailUrl)
         var name =response[i].title;
         var url=response[i].thumbnailUrl;
         var card = ` <div class="card1">
