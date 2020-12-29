@@ -2,15 +2,19 @@
     display: inline-block;
 
     margin-left:10px;
+ 
 
 }
 #header1 ul {
     margin-left:60%;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
 #header1 {
    
     margin-right:20px;
-    height:20%;
+
     background-color: rgb(48, 145, 230);
    
   
@@ -20,13 +24,20 @@ aside{
     float: left;
    
    padding-bottom: 15%;
-    margin-top:4%;
+    margin-top:2%;
     background-color:gray;
+}
+aside ul{
+    list-style-type: none;
+    
+}
+aside ul li{
+    text-align: center;
 }
 p{
     column-count: 3;
     column-gap: 40px;
-    margin-top:10%;
+    margin-top:2%;
     padding-left:4%;
 }
 @media all and (min-width:800px) and (max-width:1200px) {
@@ -43,12 +54,14 @@ p{
     margin-right:0px;
 display: block;
 float: left;
+width:100%
 }
 aside{
     display: none;
 }
 #header1 ul {
     margin-left:2%;
+ 
 }
 #header1 li{
     display:block;
